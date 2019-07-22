@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/eef8fd893d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poller+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eef8fd893d.js"></script>
+
+
+
+</head>
+<body>
+
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <script src="gamescreens"></script>
+
+        <section id="hearts">
+            <div id="timebox">
+                <div id="minutes">00</div>
+                <div id="colon">:</div>
+                <div id="seconds">00</div>
+            </div>
+                <div id="heart1"><i class="fas fa-heart"></i></div>
+                <div id="heart2"><i class="fas fa-heart"></i></div>
+                <div id="heart3"><i class="fas fa-heart"></i></div>
+                <div id="heart4"><i class="fas fa-heart"></i></div>
+                <div id="heart5"><i class="fas fa-heart"></i></div>
+                <div id="heart6"><i class="fas fa-heart"></i></div>
+                <div id="heart7"><i class="fas fa-heart"></i></div>
+                <div id="heart8"><i class="fas fa-heart"></i></div>
+                <div id="heart9"><i class="fas fa-heart"></i></div>
+                <div id="heart10"><i class="fas fa-heart"></i></div>
+                <div id="heart11"><i class="fas fa-heart"></i></div>
+                <div id="heart12"><i class="fas fa-heart"></i></div>
+                
+            </section>
+
+        
+
+        <div id="welcomescreen">
+            <h1>Match the <br>Dark Side</h1>
+            <button type="button" id="startgame">Start Game!</button>
+        </div>
+        <div id="youwin">
+                <h1>You won! Would you like to play again!?</h1>
+                <div id="score"></div>
+                <div id="loader">
+                <button type="button" id="winnewgame">Start Game!</button>
+                </div>
+                <img src="https://media.giphy.com/media/NGIfqtcS81qi4/giphy.gif" alt="deathstar exploding">
+            </div>
+
+        <div id="youlose">
+            <div>
+                <h1>You lose! Would you like to play again!?</h1>
+                </div>
+                <div>
+                <img src="https://media.giphy.com/media/1FZqAOn4hzGO4/giphy.gif" alt="vader">
+                </div>
+                <div>
+                <button type="button" id="losenewgame">Start Game!</button>
+                </div>
+               
+            </div>
+
+        <div id="container2">
+         <div id="gamecards">
+
+            <div id="vadercard" class="vader">
+                <section id="vadercardinside">
+                    <section id="vadercardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="vadercardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="DarthVader.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="vader2card" class="vader2" >
+                    <section id="vader2cardinside">
+                        <section id="vader2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="vader2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="DarthVader.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+
+            <div id="maulcard" class="maul">
+                <section id="maulcardinside">
+                    <section id="maulcardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    <section id="maulcardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="darthmaul.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="maul2card" class="maul2">
+                <section id="maul2cardinside">
+                    <section id="maul2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    <section id="maul2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="darthmaul.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+
+            <div id="troopercard" class="trooper">
+                <section id="troopercardinside">
+                    <section id="troopercardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="troopercardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="stormtrooper.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="trooper2card" class="trooper2">
+                <section id="trooper2cardinside">
+                    <section id="trooper2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="trooper2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="stormtrooper.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+        
+            <div id="sidiouscard" class="sidious">
+                <section id="sidiouscardinside">
+                    <section id="sidiouscardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="sidiouscardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="sidious.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="sidious2card" class="sidious2">
+                <section id="sidious2cardinside">
+                    <section id="sidious2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="sidious2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="sidious.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+
+            <div id="bobacard" class="boba">
+                <section id="bobacardinside">
+                    <section id="bobacardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="bobacardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="bobafett.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="boba2card" class="boba2">
+                <section id="boba2cardinside">
+                    <section id="boba2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="boba2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="bobafett.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+                                
+            <div id="dookucard" class="dooku">
+                <section id="dookucardinside">
+                    <section id="dookucardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="dookucardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="countddoku.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="dooku2card" class="dooku2">
+                <section id="dooku2cardinside">
+                    <section id="dooku2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="dooku2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="countddoku.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+                                
+            <div id="phasmacard" class="phasma">
+                <section id="phasmacardinside">
+                    <section id="phasmacardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="phasmacardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="phasma.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="phasma2card" class="phasma2">
+                <section id="phasma2cardinside">
+                    <section id="phasma2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="phasma2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="phasma.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+                                            
+            <div id="grievouscard" class="grievous">
+                <section id="grievouscardinside">
+                    <section id="grievouscardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="grievouscardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="Grievous.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="grievous2card" class="grievous2">
+                <section id="grievous2cardinside">
+                    <section id="grievous2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="grievous2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="Grievous.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="kylocard" class="kylo">
+                <section id="kylocardinside">
+                    <section id="kylocardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="kylocardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="kyloren.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+            <div id="kylo2card" class="kylo2">
+                <section id="kylo2cardinside">
+                    <section id="kylo2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                        <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                      </section>
+                    <section id="kylo2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="kyloren.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                    </section>
+                </section>
+            </div>
+
+
+
+
+
+
+
+
+            <div id="phasmacard" class="phasma">
+                    <section id="phasmacardinside">
+                        <section id="phasmacardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="phasmacardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="phasma.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+                <div id="phasma2card" class="phasma2">
+                    <section id="phasma2cardinside">
+                        <section id="phasma2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="phasma2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="phasma.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+                                                
+                <div id="grievouscard" class="grievous">
+                    <section id="grievouscardinside">
+                        <section id="grievouscardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="grievouscardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="Grievous.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+                <div id="grievous2card" class="grievous2">
+                    <section id="grievous2cardinside">
+                        <section id="grievous2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="grievous2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="Grievous.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+                <div id="kylocard" class="kylo">
+                    <section id="kylocardinside">
+                        <section id="kylocardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="kylocardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="kyloren.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+                <div id="kylo2card" class="kylo2">
+                    <section id="kylo2cardinside">
+                        <section id="kylo2cardfront" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                            <img src="logo.jpg" alt="darkside logo" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                          </section>
+                        <section id="kylo2cardback" style="background-color: rgba(255, 255, 255, 0.2); border-radius: 20px;">
+                                <img src="kyloren.jpg" alt="darthvader" style="height: 230px; width: 180px; margin-top: 10px; border-radius: 20px;">
+                        </section>
+                    </section>
+                </div>
+
+
+         
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>

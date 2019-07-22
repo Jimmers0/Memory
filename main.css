@@ -1,0 +1,1341 @@
+#container {
+    width: 1250px;
+    margin: auto;
+    padding: 20px;
+    visibility: hidden;
+    position: relative;
+    top: -680px;
+
+}
+
+#container.show {
+    width: 1250px;
+    margin: auto;
+    padding: 20px;
+    visibility: visible;
+    position: relative;
+    top: -2360px;
+}
+
+#container2 {
+    width: 1250px;
+    margin: auto;
+    padding: 20px;
+    visibility: hidden;
+    position: relative;
+    top: -680px;
+}
+
+#container2.show {
+    width: 1750px;
+    margin: auto;
+    padding: 20px;
+    visibility: visible;
+    position: relative;
+    top: -3750px;
+    right: -50px;
+    zoom: 83%;
+    
+}
+
+#score {
+    color: yellow;
+    font-size: 25px;
+
+}
+
+#timebox {
+    display: flex;
+    flex-direction: row;
+}
+
+#minutes {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Poller One', cursive;
+}
+
+#colon {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Poller One', cursive;
+}
+
+#seconds {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Poller One', cursive;
+}
+
+
+#hearts {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+#hearts.show {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    position: relative;
+    
+}
+
+#heart1 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart1.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart2 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart2.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart3 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart3.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart4 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart4.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart5 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart5.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart6 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart6.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart7 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart7.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart8 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart8.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart9 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart9.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart10 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart10.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart11 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart11.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#heart12 {
+    color: yellow;
+    font-size: 30px;
+}
+
+#heart12.show {
+    color: yellow;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+body {
+    background-image: url('spacebackground.png');
+    overflow: hidden;
+    
+}
+
+
+#youwin {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 0px;
+    font-family: 'Poller One', cursive;
+    visibility: hidden;
+    zoom: 90%;
+    
+}
+
+#youwin.show {
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    width: 800px;
+    height: 780px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 50px;
+    font-family: 'Poller One', cursive;
+    position: relative;
+    top: -1300px;
+    visibility: visible;
+}
+
+#winnewgame {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#winnewgame:hover {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: transparent;
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#youlose {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 50px;
+    font-family: 'Poller One', cursive;
+    visibility: hidden;
+}
+
+#youlose.show {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    width: 800px;
+    height: 750px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 50px;
+    font-family: 'Poller One', cursive;
+    position: relative;
+    top: -1725px;
+    visibility: visible;
+}
+
+#losenewgame {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#losenewgame:hover {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: transparent;
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#welcomescreen {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 50px;
+    font-family: 'Poller One', cursive;
+    position: relative;
+    top: -500px;
+}
+
+#welcomescreen.hide {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    border: 10px solid rgba(117, 117, 117, 0.5);
+    margin-top: 50px;
+    font-family: 'Poller One', cursive;
+    visibility: hidden;
+}
+
+#startgame {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#startgame:hover {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: transparent;
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#startgamehard {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+
+}
+
+#startgamehard:hover {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: yellow;
+    font-weight: bold;
+    border: 3px solid rgb(117, 117, 117, .5);
+    background-color: transparent;
+    margin-top: 30px;
+    font-family: 'Poller One', cursive;
+}
+
+#gamecards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+#gamecards2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+#card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+
+
+#cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#card > #cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#cardfront, #cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #vadercard {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+
+
+#vadercardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+
+#vadercard > #vadercardinside.show {
+    transform: rotateY(180deg);
+}
+
+#vadercardfront, #vadercardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#vadercardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#vadercardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #vader2card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#vader2cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#vader2card > #vader2cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#vader2cardfront, #vader2cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#vader2cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#vader2cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+
+  #maulcard {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#maulcardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#maulcard > #maulcardinside.show {
+    transform: rotateY(180deg);
+}
+
+#maulcardfront, #maulcardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#maulcardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#maulcardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+    
+
+  #maul2card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#maul2cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#maul2card > #maul2cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#maul2cardfront, #maul2cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#maul2cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#maul2cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+      
+
+  #troopercard {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#troopercardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#troopercard > #troopercardinside.show {
+    transform: rotateY(180deg);
+}
+
+#troopercardfront, #troopercardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#troopercardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#troopercardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+        
+
+  #trooper2card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#trooper2cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#trooper2card > #trooper2cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#trooper2cardfront, #trooper2cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#trooper2cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#trooper2cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+          
+
+  #sidiouscard {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#sidiouscardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#sidiouscard > #sidiouscardinside.show {
+    transform: rotateY(180deg);
+}
+
+#sidiouscardfront, #sidiouscardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#sidiouscardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#sidiouscardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+          
+
+  #sidious2card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#sidious2cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#sidious2card > #sidious2cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#sidious2cardfront, #sidious2cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#sidious2cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#sidious2cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #bobacard {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#bobacardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#bobacard > #bobacardinside.show {
+    transform: rotateY(180deg);
+}
+
+#bobacardfront, #bobacardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#bobacardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#bobacardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #boba2card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#boba2cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#boba2card > #boba2cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#boba2cardfront, #boba2cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#boba2cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#boba2cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+    #dookucard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #dookucardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #dookucard > #dookucardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #dookucardfront, #dookucardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #dookucardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #dookucardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #dooku2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #dooku2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #dooku2card > #dooku2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #dooku2cardfront, #dooku2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #dooku2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #dooku2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+    #phasmacard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #phasmacardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #phasmacard > #phasmacardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #phasmacardfront, #phasmacardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #phasmacardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #phasmacardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #phasma2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #phasma2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #phasma2card > #phasma2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #phasma2cardfront, #phasma2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #phasma2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #phasma2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+    #grievouscard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #grievouscardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #grievouscard > #grievouscardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #grievouscardfront, #grievouscardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #grievouscardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #grievouscardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #grievous2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #grievous2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #grievous2card > #grievous2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #grievous2cardfront, #grievous2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #grievous2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #grievous2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+    #kylocard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #kylocardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #kylocard > #kylocardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #kylocardfront, #kylocardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #kylocardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #kylocardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #kylo2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #kylo2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #kylo2card > #kylo2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #kylo2cardfront, #kylo2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #kylo2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #kylo2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+    

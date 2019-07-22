@@ -1,0 +1,1124 @@
+ /* /////////////////////////////////////////////////////////////////////////////// */
+
+ #vader3card {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+
+
+#vader3cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+
+#vader3card > #vader3cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#vader3cardfront, #vader3cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#vader3cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#vader3cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #vader4card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#vader4cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#vader4card > #vader4cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#vader4cardfront, #vader4cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#vader4cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#vader4cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+  
+
+  #maul3card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#maul3cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#maul3card > #maul3cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#maul3cardfront, #maul3cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#maul3cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#maul3cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+    
+
+  #maul4card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#maul4cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#maul4card > #maul4cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#maul4cardfront, #maul4cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#maul4cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#maul4cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+      
+
+  #trooper3card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#trooper3cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#trooper3card > #trooper3cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#trooper3cardfront, #trooper3cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#trooper3cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#trooper3cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+        
+
+  #trooper4card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#trooper4cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#trooper4card > #trooper4cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#trooper4cardfront, #trooper4cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#trooper4cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#trooper4cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+          
+
+  #sidious3card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#sidious3cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#sidious3card > #sidious3cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#sidious3cardfront, #sidious3cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#sidious3cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#sidious3cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+          
+
+  #sidious4card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#sidious4cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#sidious4card > #sidious4cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#sidious4cardfront, #sidious4cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#sidious4cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#sidious4cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #boba3card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#boba3cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#boba3card > #boba3cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#boba3cardfront, #boba3cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#boba3cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#boba3cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  #boba4card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: transparent;
+    perspective: 1000px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 50px;
+}
+
+#boba4cardinside {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#boba4card > #boba4cardinside.show {
+    transform: rotateY(180deg);
+}
+
+#boba4cardfront, #boba4cardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+#boba4cardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+#boba4cardback {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+    #dooku3card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #dooku3cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #dooku3card > #dooku3cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #dooku3cardfront, #dooku3cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #dooku3cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #dooku3cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #dooku4card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #dooku4cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #dooku4card > #dooku4cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #dooku4cardfront, #dooku4cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #dooku4cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #dooku4cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+    #phasma3card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #phasma3cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #phasma3card > #phasma3cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #phasma3cardfront, #phasma3cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #phasma3cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #phasma3cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #phasma4card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #phasma4cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #phasma4card > #phasma4cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #phasma4cardfront, #phasma4cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #phasma4cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #phasma4cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+    #grievous3card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #grievous3cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #grievous3card > #grievous3cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #grievous3cardfront, #grievous3cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #grievous3cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #grievous3cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #grievous4card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #grievous4cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #grievous4card > #grievous4cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #grievous4cardfront, #grievous4cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #grievous4cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #grievous4cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+    #kylo3card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #kylo3cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #kylo3card > #kylo3cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #kylo3cardfront, #kylo3cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #kylo3cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #kylo3cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #kylo4card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #kylo4cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #kylo4card > #kylo4cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #kylo4cardfront, #kylo4cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #kylo4cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #kylo4cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+
+
+    #inquisitorcard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #inquisitorcardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #inquisitorcard > #inquisitorcardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #inquisitorcardfront, #inquisitorcardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #inquisitorcardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #inquisitorcardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #inquisitor2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #inquisitor2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #inquisitor2card > #inquisitor2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #inquisitor2cardfront, #inquisitor2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #inquisitor2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #inquisitor2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+      #tiecard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #tiecardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #tiecard > #tiecardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #tiecardfront, #tiecardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #tiecardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #tiecardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #tie2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #tie2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #tie2card > #tie2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #tie2cardfront, #tie2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #tie2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #tie2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+
+      #snokecard {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #snokecardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #snokecard > #snokecardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #snokecardfront, #snokecardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #snokecardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #snokecardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
+    
+      #snoke2card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: transparent;
+        perspective: 1000px;
+        text-align: center;
+        line-height: 250px;
+        font-size: 50px;
+    }
+    
+    #snoke2cardinside {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    
+    #snoke2card > #snoke2cardinside.show {
+        transform: rotateY(180deg);
+    }
+    
+    #snoke2cardfront, #snoke2cardback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    #snoke2cardfront {
+        background-color: #bbb;
+        color: black;
+    }
+    
+    #snoke2cardback {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+      /* /////////////////////////////////////////////////////////////////////////////// */
