@@ -26,7 +26,7 @@ function calculateScoreHard() {
 
 function winHard() {
     console.log("hard array: " +matchedcardsarrHard)
-    if (matchedcardsarrHard.length === 1) {
+    if (matchedcardsarrHard.length === 12) {
         $('#youwin').toggleClass('show');
         $('#container').removeClass('show');
         $('#container2').removeClass('show');
