@@ -1134,7 +1134,7 @@ $('.snoke').click(function() {
             card2 = 'snoke'
             if (card1 === 'snoke2') {
                 console.log('match!')
-                inquisitormatch = true
+                snokematch = true
                 match.play()
                 matchedcardsarrHard.push('snokefighterpilot')
                 card1 = 'none'
@@ -1208,4 +1208,4 @@ winHard()
 consoleCard()
 })
 
-})
+})}
