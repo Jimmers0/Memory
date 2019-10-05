@@ -8,6 +8,7 @@
     var totalDeductionHard = 0
     var finalScoreHard = 0
     var matchedcardsarrHard = []
+ 
 
     function winHard(){
         if (matchedcardsarr.length === 100){
@@ -1037,7 +1038,7 @@ $('.tie').click(function() {
             card2 = 'tie'
             if (card1 === 'tie2') {
                 console.log('match!')
-                inquisitormatch = true
+                tiematch = true
                 match.play()
                 matchedcardsarrHard.push('tiefighterpilot')
                 card1 = 'none'
